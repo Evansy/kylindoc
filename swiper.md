@@ -1,7 +1,9 @@
 # swiper 轮播图
 
 #### 标签
-	<ImgSwiper></ImgSwiper>
+```html
+<ImgSwiper></ImgSwiper>
+```
 #### 示例
 ```html
   <ImgSwiper options={swiperInit} height={(430/72)+"rem"} onAdClick={this.handleAdClick}>
