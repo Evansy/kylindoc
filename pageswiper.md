@@ -19,3 +19,31 @@
 * `notRefreshNeedLoadMore`  `类型：Boolean` 不刷新只需要加载更多
 * `loadMore`  		     `类型：function` 加载更多回调函数
 
+#### `loadMore` 示例
+ `requestDatas`是另外一个用来请求数据的组件
+```js
+ var self = this;
+		var data = this.props.SortContainer;
+		if (data && data.Data && 
+		    data.Data.allproductlist && 
+		    data.Data.allproductlist.length && 
+		    data.Data.allproductlist.length > 0 && 
+		    data.total <= data.Data.allproductlist.length) {
+			this.setState({IsNoData: true})
+			return
+		}
+		requestDatas({
+			tagname: 'MoreProducts',
+			param: {PageIndex: this.state.PageIndex + 1, CategoryID: this.state.sortTabIndex},
+			callback: function (data) {
+				if (data) {
+					var result = JSON.parse(data);
+					self.props.actions.moreWholeHeart(result);
+					self.setState({PageIndex: self.state.PageIndex + 1});
+					if (callback) {
+						callback()
+					}
+				}
+			}
+		});
+```
