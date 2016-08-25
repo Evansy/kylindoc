@@ -30,9 +30,9 @@ kylin项目中用到两个LazyLoad组件，一个是从npm安装的react-lazyloa
 
 ##### Lazyload参数
 
-* `height` - 默认占位符高度
-* `throttle` - 默认占位符高度
-* `overflow` - 超出容器部分隐藏
+* `height` `类型：number` - 默认占位符高度
+* `throttle` `类型：Bool / Number`  `Default: false`
+* `overflow` `类型：无` - 超出容器部分隐藏
 
 [详见 react-LazyLoad Git](https://github.com/jasonslyvia/react-lazyload)
 
