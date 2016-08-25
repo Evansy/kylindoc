@@ -2,7 +2,7 @@
 
 * [My Awesome API](README.md)
 * [Defining Methods](methods.md)
-* [js componet](big_componet.md)
+* [js 组件](big_componet.md)
    * [swiper](swiper.md)
    * [pageswiper](pageswiper.md)
 
