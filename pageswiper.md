@@ -8,3 +8,4 @@
 <!--上拉加载更多 异步加载 无下拉动画 引用自组件swiperScroll -->
 <PageSwiper type={myscroll}> </PageSwiper > 
 ```
+#### 示例
