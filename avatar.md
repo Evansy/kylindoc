@@ -3,7 +3,7 @@
 #### 标签
 
 ```html
-<ImgSwiper></ImgSwiper>
+<Avatar> </Avatar>
 
 ```
 
@@ -19,26 +19,5 @@
 
 ##### 参数
 
-* `options` - 轮播属性设置
+* `user` `类型：Object` - 传入头像数据
 
-* `height` - 设置轮播高度
-
-* `onAdClick` - 轮播点击事件
-
-
-
-#### 其他
-
-* `adObj['U01002_home001']` 广告数据以及广告id
-
-* `window.H5Api.urlThumbPath(item.AdFile.split(',')[0],720,430):""}` 服务器压缩图片至指定
-
-
-
-#### `options` 例子
-
-```js
-
-df
-
-```
