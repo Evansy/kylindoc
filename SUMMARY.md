@@ -8,4 +8,5 @@
     * [lazyload](lazy.md)
     * [Avatar](avatar.md)
     * [UserLv](userlv.md)
+    * dicoveryForum
 
