@@ -1,8 +1,9 @@
 # js 描述模板
 #### 标签
-	<ImgSwiper></ImgSwiper>
+```html
+<ImgSwiper></ImgSwiper>
+```
 #### 示例
-
 ```html
 <ImgSwiper></ImgSwiper>
 
