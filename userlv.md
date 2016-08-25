@@ -12,16 +12,10 @@
 
 ##### 参数
 
-* `lvSpec` - 轮播属性设置
-* `height` - 设置轮播高度
-* `onAdClick` - 轮播点击事件
+* `lvSpec` `类型：Object / String` - 等级
+* `lv`  `类型：Object`- 用户经验值
+* `sex` `类型：String` - 用户性别
 
 #### 其他
 
-* `adObj['U01002_home001']` 广告数据以及广告id
-* `window.H5Api.urlThumbPath(item.AdFile.split(',')[0],720,430):""}` 服务器压缩图片至指定
-
-#### `options` 例子
-```js
-df
-```
+* `this.props.LvSpec` 用来判断父元素是否传入LvSpec数据或者组件内是否初始化LvSpec数据
