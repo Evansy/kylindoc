@@ -37,7 +37,7 @@
 
 ##### 参数
 
-* `options`  - 轮播属性设置
+* `options` `类型：Boolean` - 轮播属性设置
 * `height`  - 设置轮播高度
 * `onAdClick` - 轮播点击事件
 

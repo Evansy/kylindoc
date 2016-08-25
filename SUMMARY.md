@@ -6,4 +6,5 @@
     * [pageswiper](pageswiper.md)
     * [swiper](swiper.md)
     * [lazyload](lazy.md)
+    * [Avatar](avatar.md)
 
