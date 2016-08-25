@@ -4,7 +4,7 @@
 #### 标签
 
 ```html
-<ImgSwiper></ImgSwiper>
+<imglazyload></imglazyload>
 ```
 #### 示例
 ```html
