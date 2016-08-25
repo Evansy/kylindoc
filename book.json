@@ -14,5 +14,16 @@
                 }
             ]
         }
+    },
+    "links": {
+        "sharing": {
+            "all"      : true,
+            "google"   : true,
+            "facebook" : true,
+            "twitter"  : true,
+            "weibo"    : true,
+            "qq"       : true,
+            "qrcode"   : true
+        }
     }
 }
