@@ -1,30 +1,22 @@
-# Defining Methods
+# js 描述模板
+#### 标签
+	<ImgSwiper></ImgSwiper>
+#### 示例
 
-Methods allow you to smoothly display code examples in different languages.
+```html
+<ImgSwiper></ImgSwiper>
 
-{% method -%}
-## My first method
+```
+##### 参数
+* `options` - 轮播属性设置
+* `height` - 设置轮播高度
+* `onAdClick` - 轮播点击事件
 
-My first method exposes how to print a message in JavaScript and Go.
+#### 其他
+* `adObj['U01002_home001']` 广告数据以及广告id
+* `window.H5Api.urlThumbPath(item.AdFile.split(',')[0],720,430):""}` 服务器压缩图片至指定
 
-{% sample lang="js" -%}
-Here is how to print a message to `stdout` using JavaScript.
-
+#### `options` 例子
 ```js
-console.log('My first method');
+df
 ```
-
-{% sample lang="go" -%}
-Here is how to print a message to `stdout` using Go.
-
-```go
-fmt.Println("My first method")
-```
-
-{% common -%}
-Whatever language you are using, the result will be the same.
-
-```bash
-$ My first method
-```
-{% endmethod %}
