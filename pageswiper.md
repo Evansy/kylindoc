@@ -9,3 +9,13 @@
 <PageSwiper type={myscroll}> </PageSwiper > 
 ```
 #### 示例
+```js
+ <PageSwiper notRefreshNeedLoadMore={true} loadMore={this.loadMore}>
+	······
+ </PageSwiper> 
+```
+
+#### 参数
+* `notRefreshNeedLoadMore`  `类型：Boolean` 不刷新只需要加载更多
+* `loadMore`  		     `类型：function` 加载更多回调函数
+
