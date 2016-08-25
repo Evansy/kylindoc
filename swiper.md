@@ -37,9 +37,9 @@
 
 ##### 参数
 
-* `options` `类型：Boolean` - 轮播属性设置
-* `height`  - 设置轮播高度
-* `onAdClick` - 轮播点击事件
+* `options` `类型：Object` - 轮播属性设置
+* `height` `类型：number` - 设置轮播高度
+* `onAdClick` `类型：function` - 轮播点击事件
 
 #### 其他
 * `adObj['U01002_home001']` 广告数据以及广告id
