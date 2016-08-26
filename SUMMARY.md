@@ -13,6 +13,7 @@
     * [Evalute-star](evalute-star.md)
     * [iScrollPage](iscrollpage.md)
     * [list-item](list-item.md)
+    * [like-dislike-btn](like-dislike-btn.md)
 * [npm组件](npm组件.md)
     * [lazyload](lazy.md)
 
