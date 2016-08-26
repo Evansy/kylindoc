@@ -1,4 +1,4 @@
-# js 描述模板
+# distance 距离组件
 #### 标签
 ```html
 <Distance></Distance>
@@ -6,20 +6,11 @@
 
 #### 示例
 ```html
-<Distance></Distance>
+<Distance startPoint={{Latitude:post.Latitude,PassLevel:post.PassLevel}}
+	      endPoint={this.props.currentPoint} />
 ```
 
 ##### 参数
 
-* `options` `类型：Object` - 轮播属性设置
-* `height` `类型：Number` - 设置轮播高度
-* `onAdClick` `类型：Function` - 轮播点击事件
-
-#### 其他
-* `adObj['U01002_home001']` 广告数据以及广告id
-* `window.H5Api.urlThumbPath(item.AdFile.split(',')[0],720,430):""}` 服务器压缩图片至指定
-#### `options` 例子
-
-```js
-df
-```
+* `startPoint` `类型：Object` - 开始点的坐标信息
+* `endPoint` `类型：Object` - 结束点的坐标信息
