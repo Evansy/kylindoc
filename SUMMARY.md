@@ -11,6 +11,8 @@
     * [imglazyload](imglazyload.md)
     * [distance](distance.md)
     * [Evalute-star](evalute-star.md)
+    * [iScrollPage](iscrollpage.md)
+    * [list-item](list-item.md)
 * [npm组件](npm组件.md)
     * [lazyload](lazy.md)
 
