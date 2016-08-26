@@ -10,6 +10,7 @@
     * [dicoveryForum](dicoveryforum.md)
     * [imglazyload](imglazyload.md)
     * [distance](distance.md)
+    * [Evalute-star](evalute-star.md)
 * [npm组件](npm组件.md)
     * [lazyload](lazy.md)
 
