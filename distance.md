@@ -1,12 +1,12 @@
 # js 描述模板
 #### 标签
 ```html
-<ImgSwiper></ImgSwiper>
+<Distance></Distance>
 ```
 
 #### 示例
 ```html
-<ImgSwiper></ImgSwiper>
+<Distance></Distance>
 ```
 
 ##### 参数
