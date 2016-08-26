@@ -9,6 +9,7 @@
     * [UserLv](userlv.md)
     * [dicoveryForum](dicoveryforum.md)
     * [imglazyload](imglazyload.md)
+    * [distance](distance.md)
 * [npm组件](npm组件.md)
     * [lazyload](lazy.md)
 
