@@ -16,7 +16,7 @@
    key={i}
    checkedValue={this.state.currentPaymentCheck}
 />
-```
+``` 
 
 ##### 参数
 
