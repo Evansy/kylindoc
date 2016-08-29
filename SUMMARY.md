@@ -14,6 +14,7 @@
     * [iScrollPage](iscrollpage.md)
     * [list-item](list-item.md)
     * [like-dislike-btn](like-dislike-btn.md)
+    * [loading](loading.md)
 * [npm组件](npm组件.md)
     * [lazyload](lazy.md)
 
