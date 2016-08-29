@@ -17,11 +17,16 @@
 * `cancelOrder` `类型：Function` - 关闭订单事件
 * `OrderID` `类型：String` - 订单ID
 
-#### 其他 
-* `adObj['U01002_home001']` 广告数据以及广告id 
-* `window.H5Api.urlThumbPath(item.AdFile.split(',')[0],720,430):""}` 服务器压缩图片至指定 
-
-#### `options` 例子 
+#### `cancelOrder` 例子 
 ```js 
-df 
+cancelOrder:function(){
+    window.requestHybrid({
+      tagname:"cancelOrder",
+      param:this.props.LegWorkOrder.JoinTime, 
+    });
+},
+```
+#### `current` 例子 
+```js 
+var current=store2.get('Current'+order.OrderID);
 ```
