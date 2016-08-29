@@ -15,6 +15,8 @@
     * [list-item](list-item.md)
     * [like-dislike-btn](like-dislike-btn.md)
     * [loading](loading.md)
+    * [spinner](spinner.md)
+    * [timedown](timedown.md)
 * [npm组件](npm组件.md)
     * [lazyload](lazy.md)
 
